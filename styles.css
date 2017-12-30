@@ -16,3 +16,7 @@ body {
   font-size: 55px;
   margin-top: 300px;
 }
+
+.aboutParagraph {
+  display: none;
+}
