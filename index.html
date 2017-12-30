@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- NAV BAR -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#aboutNav" class="navbar-brand">Auna Carpanzano</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-nav-demo">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#aboutNav">About</a></li>
+        <li><a href="#portfolioNav">Portfolio</a></li>
+        <li><a href="#contactNav">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ABOUT -->
+<div class="container-fluid" id="aboutNav">
+  <div class="row top">
+    <h1 class="text-center headerName">Auna Carpanzano</h1>
+    <p class="aboutParagraph">Front-end developer proficient in HTML, CSS, Bootstrap, JavaScript, and jQuery.</p>
+    <a href="#portfolioNav">
+      <button id="arrow">
+        <span class="glyphicon glyphicon-menu-down"></span>
+      </button>
+    </a>
+  </div>
+  <!-- PORTFOLIO -->
+  <div id="portfolioNav" class="row text-center">
+    <h1 class="portfolioBackground">Portfolio</h1>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/ooyxOz">
+        <div class="thumbnail contain">
+          <div class="image image1">
+          </div>
+          <div class="overlay">
+            <div class="text">Calculator</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/GORqZw">
+        <div class="thumbnail contain">
+          <div class="image image2">
+          </div>
+          <div class="overlay">
+            <div class="text">Local Weather</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/bapOWN">
+        <div class="thumbnail contain">
+          <div class="image image3">
+          </div>
+          <div class="overlay">
+            <div class="text">Simon Game</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/LOVJxm">
+        <div class="thumbnail contain">
+          <div class="image image4">
+          </div>
+          <div class="overlay">
+            <div class="text">Wikipedia Viewer</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/qVMpxV">
+        <div class="thumbnail contain">
+          <div class="image image5">
+          </div>
+          <div class="overlay">
+            <div class="text">Tic-Tac-Toe Game</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/XVpZKp">
+        <div class="thumbnail contain">
+          <div class="image image6">
+          </div>
+          <div class="overlay">
+            <div class="text">Random Quote Machine</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/vWaKKm">
+        <div class="thumbnail contain">
+          <div class="image image7">
+          </div>
+          <div class="overlay">
+            <div class="text">Pomodoro Clock</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/jYBWBv">
+        <div class="thumbnail contain">
+          <div class="image image8">
+          </div>
+          <div class="overlay">
+            <div class="text">Twitch.tv Streamers</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <a href="https://codepen.io/AunaCarpanzano/full/mpWzgv">
+        <div class="thumbnail contain">
+          <div class="image image9">
+          </div>
+          <div class="overlay">
+            <div class="text">Tribute Page</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- CONTACT -->
+  <div id="contactNav" class="row text-center contact">
+    <h1 class="contactBackground">Contact</h1>
+    <a href="https://github.com/Auna-Carpanzano" class="fa fa-github" target="_blank"></a>
+    <a href="https://codepen.io/AunaCarpanzano/" class="fa fa-codepen" target="_blank"></a>
+    <a href="https://www.freecodecamp.org/auna-carpanzano" class="fa fa-free-code-camp" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/aunacarpanzano/" class="fa fa-linkedin" target="_blank"></a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</div> <!-- END CONTAINER FLUID -->
+</body>
+</html>
