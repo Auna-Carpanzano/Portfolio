@@ -158,3 +158,10 @@ a:active {
 /* Small 768px - 991px */
 @media screen and (max-width: 991px) {
 }
+
+/* XSmall 576px - 768px */
+@media screen and (max-width: 767px) {
+  .headerName {
+    font-size: 32px;
+  }
+}
