@@ -47,3 +47,8 @@ body {
   50%  {top: 650px;}
   100%  {bottom: 700px;}
 }
+
+/* PORTFOLIO */
+.portfolioBackground {
+  padding: 100px 0px;
+}
