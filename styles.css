@@ -102,4 +102,6 @@ body {
   margin: 20px;
   border-radius: 50%;
   text-decoration: none;
+  -webkit-transition: border-radius 2s;
+  transition: border-radius 2s;
 }
