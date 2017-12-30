@@ -103,7 +103,7 @@ body {
 }
 
 .thumbnail {
-  background-color: gray;
+  border: 1px solid gray;
 }
 
 .overlay {
