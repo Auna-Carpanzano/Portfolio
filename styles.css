@@ -26,4 +26,6 @@ body {
 #arrow {
   display: none;
   position: absolute;
+  left: 48%;
+  top: 700px;
 }
