@@ -66,6 +66,10 @@ body {
   border: none;
 }
 
+.thumbnail {
+  background-color: gray;
+}
+
 .overlay {
   opacity: 0;
   position: absolute;
