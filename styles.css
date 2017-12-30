@@ -65,3 +65,7 @@ body {
   width: 100%;
   border: none;
 }
+
+.overlay {
+  opacity: 0;
+}
