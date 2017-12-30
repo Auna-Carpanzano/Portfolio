@@ -32,4 +32,6 @@ body {
   color: black;
   border: none;
   font-size: 32px;
+  animation: move 3s infinite;
+  animation-direction: alternate-reverse;
 }
