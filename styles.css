@@ -68,4 +68,5 @@ body {
 
 .overlay {
   opacity: 0;
+  position: absolute;
 }
