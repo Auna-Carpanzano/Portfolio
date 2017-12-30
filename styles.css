@@ -154,3 +154,7 @@ a:active {
 /* Medium 992px - 1199px */
 @media screen and (max-width: 1199px) {
 }
+
+/* Small 768px - 991px */
+@media screen and (max-width: 991px) {
+}
