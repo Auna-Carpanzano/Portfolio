@@ -38,6 +38,11 @@ body {
   animation-direction: alternate-reverse;
 }
 
+@-webkit-keyframes move {
+  50%  {top: 650px;}
+  100%  {bottom: 700px;}
+}
+
 @keyframes move {
   50%  {top: 650px;}
   100%  {bottom: 700px;}
