@@ -25,4 +25,5 @@ body {
 
 #arrow {
   display: none;
+  position: absolute;
 }
