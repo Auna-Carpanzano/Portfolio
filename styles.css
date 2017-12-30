@@ -10,3 +10,7 @@ body {
 .top {
   height: 800px;
 }
+
+.headerName {
+  display: none;
+}
