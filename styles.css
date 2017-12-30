@@ -63,4 +63,5 @@ body {
 .contain {
   position: relative;
   width: 100%;
+  border: none;
 }
