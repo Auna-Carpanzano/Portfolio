@@ -82,3 +82,7 @@ body {
 .contain:hover .overlay {
   opacity: .9;
 }
+
+.text {
+  color: white;
+}
