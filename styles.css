@@ -32,6 +32,8 @@ body {
   color: black;
   border: none;
   font-size: 32px;
+  -webkit-animation: move 3s infinite;
+  -webkit-animation-direction: alternate-reverse;
   animation: move 3s infinite;
   animation-direction: alternate-reverse;
 }
