@@ -60,6 +60,42 @@ body {
   background-position: center center;
 }
 
+.image1 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514669715/calculator2_ty5j37.jpg');
+}
+
+.image2 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514672485/Weather_fdvjfp.jpg');
+}
+
+.image3 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514671115/SimonGame_cohrii.png');
+}
+
+.image4 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514674016/WikipediaViewer_n64rfr.png');
+}
+
+.image5 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514671725/TicTacToe_v2dxnz.jpg');
+}
+
+.image6 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514673714/RandomQuote2_y1twhz.jpg');
+}
+
+.image7 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514671904/PomodoroClock_dv3pbv.jpg');
+}
+
+.image8 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514670793/Twitch_tzai49.jpg');
+}
+
+.image9 {
+  background-image: url('http://res.cloudinary.com/dvmwlh9xp/image/upload/v1514671009/TributePage_oz0kvd.jpg');
+}
+
 .contain {
   position: relative;
   width: 100%;
