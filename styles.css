@@ -105,3 +105,8 @@ body {
   -webkit-transition: border-radius 2s;
   transition: border-radius 2s;
 }
+
+.fa-linkedin {
+  background-color: #007bb5;
+  color: white;
+}
