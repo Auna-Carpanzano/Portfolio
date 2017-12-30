@@ -59,3 +59,7 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+.contain {
+  position: relative;
+}
