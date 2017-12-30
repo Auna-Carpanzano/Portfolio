@@ -187,6 +187,10 @@ a:active {
   color: white;
 }
 
+.contactBackground {
+  padding: 100px 0 25px 0;
+}
+
 /* Large 1200px - max */
 @media screen and (min-width: 1200px) {
 }
