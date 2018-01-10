@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Personal Portfolio Webpage</title>
+  <title>Portfolio Webpage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <!-- NAV BAR -->
@@ -19,139 +19,209 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#aboutNav" class="navbar-brand">Auna Carpanzano</a>
+      <a href="#nav-about" class="navbar-brand">Auna Carpanzano</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-nav-demo">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#aboutNav">About</a></li>
-        <li><a href="#portfolioNav">Portfolio</a></li>
-        <li><a href="#contactNav">Contact</a></li>
+        <li><a href="#nav-about">About</a></li>
+        <li><a href="#nav-portfolio">Portfolio</a></li>
+        <li><a href="#nav-contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- ABOUT -->
-<div class="container-fluid" id="aboutNav">
-  <div class="row top">
-    <h1 class="text-center headerName">Auna Carpanzano</h1>
-    <p class="aboutParagraph">Front-end developer proficient in HTML, CSS, Bootstrap, JavaScript, and jQuery.</p>
-    <a href="#portfolioNav">
-      <button id="arrow">
+<div class="container-fluid">
+  <section class="section-about row" id="nav-about">
+    <h1 class="section-about-box heading-primary heading-primary--main">Auna Carpanzano</h1>
+    <h2 class="section-about-box heading-primary heading-primary--sub">Front-end developer</h2>
+    <hr>
+    <div class="section-about-box">
+      <ul class="ul-1">
+        <li class="ul-1--1">HTML5</li>
+        <li class="ul-1--2">CSS3</li>
+        <li class="ul-1--3">JavaScript</li>
+      </ul>
+      <ul class="ul-2">
+        <li class="ul-2--1">Bootstrap3</li>
+        <li class="ul-2--2">SASS</li>
+        <li class="ul-2--3">jQuery</li>
+      </ul>
+    </div>
+    <a href="#nav-portfolio">
+      <button class="arrow">
         <span class="glyphicon glyphicon-menu-down"></span>
       </button>
     </a>
-  </div>
+  </section>
   <!-- PORTFOLIO -->
-  <div id="portfolioNav" class="row text-center">
-    <h1 class="portfolioBackground">Portfolio</h1>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/ooyxOz" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image1">
-          </div>
-          <div class="overlay">
-            <div class="text">Calculator</div>
-          </div>
+  <section class="section-portfolio" id="nav-portfolio">
+    <h2 class="heading-secondary">Portfolio</h2>
+    <div class="card__row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/ooyxOz" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-1">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Calculator
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Simple calculator made with jQuery. A freeCodeCamp advanced front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/GORqZw" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image2">
-          </div>
-          <div class="overlay">
-            <div class="text">Local Weather</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/GORqZw" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-2">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Local Weather
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Shows the local weather using geolocation and weather API.  A freeCodeCamp intermediate front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/bapOWN" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image3">
-          </div>
-          <div class="overlay">
-            <div class="text">Simon Game</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/bapOWN" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-3">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Simon Game
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Responsive Simon game made with jQuery. A freeCodeCamp advanced front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/LOVJxm" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image4">
-          </div>
-          <div class="overlay">
-            <div class="text">Wikipedia Viewer</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/LOVJxm" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-4">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Wikipedia Viewer
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Responsive Wikipedia viewer made with Bootstrap media queries. A freeCodeCamp intermediate front end development project.
+              </p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/qVMpxV" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image5">
-          </div>
-          <div class="overlay">
-            <div class="text">Tic-Tac-Toe Game</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/qVMpxV" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-5">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Tic-Tac-Toe Game
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Tic-Tac-Toe game using the minimax algorithm described in FreeCodeCamp's YouTube tutorial "JavaScript Tic Tac Toe Project Tutorial - Unbeatable AI w/ Minimax Algorithm." A freeCodeCamp advanced front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/XVpZKp" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image6">
-          </div>
-          <div class="overlay">
-            <div class="text">Random Quote Machine</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/XVpZKp" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-6">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Random Quote Machine
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Random quotes made with Quotes on Design API. A freeCodeCamp intermediate front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/vWaKKm" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image7">
-          </div>
-          <div class="overlay">
-            <div class="text">Pomodoro Clock</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/vWaKKm" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-7">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Pomodoro Clock
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Pomodoro clock made with jQuery. A freeCodeCamp advanced front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/jYBWBv" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image8">
-          </div>
-          <div class="overlay">
-            <div class="text">Twitch.tv Streamers</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/jYBWBv" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-8">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Twitch.tv Streamers
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+              <p>Uses API to show status of Twitch streamers. A freeCodeCamp intermediate front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="col-lg-4 col-sm-6">
-      <a href="https://codepen.io/AunaCarpanzano/full/mpWzgv" target="_blank">
-        <div class="thumbnail contain">
-          <div class="image image9">
-          </div>
-          <div class="overlay">
-            <div class="text">Tribute Page</div>
-          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card">
+          <a href="https://codepen.io/AunaCarpanzano/full/mpWzgv" target="_blank">
+            <div class="card__side card__side--front thumbnail">
+              <div class="card__picture card__picture-9">
+                &nbsp;
+              </div>
+              <div class="card__heading">
+                Tribute Page
+              </div>
+            </div>
+            <div class="card__side card__side--back thumbnail">
+            <p>Bootstrap responsive tribute page about JavaScript. A freeCodeCamp basic front end development project.</p>
+            </div>
+          </a>
         </div>
-      </a>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- CONTACT -->
-  <div id="contactNav" class="row text-center contact">
-    <h1 class="contactBackground">Contact</h1>
-    <a href="https://github.com/Auna-Carpanzano" class="fa fa-github" target="_blank"></a>
-    <a href="https://codepen.io/AunaCarpanzano/" class="fa fa-codepen" target="_blank"></a>
-    <a href="https://www.freecodecamp.org/auna-carpanzano" class="fa fa-free-code-camp" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/aunacarpanzano/" class="fa fa-linkedin" target="_blank"></a>
-  </div>
+  <section class="section-contact row" id="nav-contact">
+    <h2 class="heading-secondary">Contact</h2>
+    <a href="https://github.com/Auna-Carpanzano" class="fa fa-github" target="_blank" title="GitHub"></a>
+    <a href="https://codepen.io/AunaCarpanzano/" class="fa fa-codepen" target="_blank" title="Codepen"></a>
+    <a href="https://www.freecodecamp.org/auna-carpanzano" class="fa fa-free-code-camp" target="_blank" title="freeCodeCamp"></a>
+    <a href="https://www.linkedin.com/in/aunacarpanzano/" class="fa fa-linkedin" target="_blank" title="LinkedIn"></a>
+  </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="scripts.js"></script>
