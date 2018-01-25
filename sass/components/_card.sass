@@ -15,6 +15,16 @@
     padding-top: 2rem
     text-transform: uppercase
 
+    &-back
+      text-transform: uppercase
+
+  &__description
+    text-align: left
+
+  &__list
+    text-align: left
+    list-style-type: none
+
   &:hover .card__side--front
     transform: rotateY(-180deg)
 
@@ -43,7 +53,6 @@
       color: $color-black
       text-align: center
       text-transform: none
-      padding-top: 2rem
       transform: rotateY(180deg)
 
   &__picture
@@ -82,5 +91,19 @@
     &-9
       background-image: url("../img/TributePage.jpg")
 
+    &-back
+      height: 50%
+      background-size: cover
+      background-position: center
+
 .thumbnail
   border: 1px solid rgb(34, 34, 34)
+
+.float-1
+  width: 10rem
+  float: left
+
+.float-2
+  width: 10rem
+  float: right
+  margin-right: 20rem
