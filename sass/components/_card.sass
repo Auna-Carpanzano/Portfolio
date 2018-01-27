@@ -96,6 +96,11 @@
       background-size: cover
       background-position: center
 
+  @include responsive(tab)
+
+    &__side--back
+      transform: rotateY(0)
+
 .thumbnail
   border: 1px solid rgb(34, 34, 34)
 
