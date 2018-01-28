@@ -1,0 +1,8 @@
+@mixin responsive($breakpoint)
+  @if $breakpoint == tab
+    @media (max-width: 991px)
+      @content
+
+  @if $breakpoint == phone
+    @media (max-width: 575px)
+      @content

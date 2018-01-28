@@ -1,4 +1,5 @@
 .card
+  display: none
   position: relative
   height: 30rem
   width: 100%
@@ -53,6 +54,7 @@
       color: $color-black
       text-align: center
       text-transform: none
+      padding-bottom: 3rem
       transform: rotateY(180deg)
 
   &__picture
@@ -96,12 +98,21 @@
       background-size: cover
       background-position: center
 
+  @include responsive(tab)
+
+    &__side--back
+      transform: rotateY(0)
+
+    &:hover .card__side--front
+      transform: rotateY(0deg)
+
 .thumbnail
   border: 1px solid rgb(34, 34, 34)
 
-.float-1
-  float: left
+.float
+  &-1
+    float: left
 
-.float-2
-  float: right
-  margin-right: 10rem
+  &-2
+    float: right
+    margin-right: 5rem
