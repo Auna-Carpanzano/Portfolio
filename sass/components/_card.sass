@@ -98,8 +98,8 @@
       background-size: cover
       background-position: center
 
-  @include responsive(tab)
-
+  @media only screen and (max-width: 991px),
+  only screen and (hover:none)
     &__side--back
       transform: rotateY(0)
 
@@ -109,10 +109,17 @@
 .thumbnail
   border: 1px solid rgb(34, 34, 34)
 
-.float
-  &-1
-    float: left
+.icon
+  display: inline-block
+  width: 4rem
+  height: 4rem
+  stroke-width: 0
+  stroke: currentColor
+  fill: currentColor
+  margin: 0 1rem
 
-  &-2
-    float: right
-    margin-right: 5rem
+  @media only screen and (max-width: 404px),
+  only screen and (hover:none)
+    width: 2rem
+    height: 2rem
+
